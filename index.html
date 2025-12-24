@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blooming Petals - Home</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <img src="images/logo (2).png" alt="Blooming Petals Logo" class="logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="flowers.html">Flowers</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<!-- Slider -->
+<div class="slider">
+    <div class="slide active">
+        <img src="images/flower1.jpg" alt="Flower 1">
+        <div class="slide-text">
+            <h2>Fresh Flowers Delivered Daily</h2>
+            <p>Make every moment special with our exquisite bouquets.</p>
+            <button onclick="location.href='categories.html'">Shop Now</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="images/flower2.jpg" alt="Flower 2">
+        <div class="slide-text">
+            <h2>Beautiful Arrangements</h2>
+            <p>Perfect flowers for birthdays, weddings, and anniversaries.</p>
+            <button onclick="location.href='categories.html'">View Collection</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="images/flower3.jpg" alt="Flower 3">
+        <div class="slide-text">
+            <h2>Send Love & Happiness</h2>
+            <p>Express your feelings with our premium floral designs.</p>
+            <button onclick="location.href='categories.html'">Explore Now</button>
+        </div>
+    </div>
+</div>
+
+<!-- Highlights / Services -->
+<section class="highlights">
+    <div>
+        <h3>Fresh Flowers</h3>
+        <p>Delivered fresh every day, straight from the farm.</p>
+    </div>
+    <div>
+        <h3>Gift Wrapping</h3>
+        <p>Beautifully wrapped gifts to make your surprise perfect.</p>
+    </div>
+    <div>
+        <h3>Fast Delivery</h3>
+        <p>Quick and safe delivery across all major cities.</p>
+    </div>
+</section>
+
+<!-- Featured Categories -->
+<section class="category-list">
+    <div data-category="birthday">
+        <img src="images/flower1.jpg" alt="Birthday">
+        <h4>Birthday</h4>
+    </div>
+    <div data-category="anniversary">
+        <img src="images/flower2.jpg" alt="Anniversary">
+        <h4>Anniversary</h4>
+    </div>
+    <div data-category="wedding">
+        <img src="images/flower3.jpg" alt="Wedding">
+        <h4>Wedding</h4>
+    </div>
+    <div data-category="getwell">
+        <img src="images/flower4.jpg" alt="Get Well Soon">
+        <h4>Get Well Soon</h4>
+    </div>
+</section>
+
+<!-- Products Section (dynamic) -->
+<section id="products" class="product-list"></section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
