@@ -116,3 +116,10 @@ header nav a:hover { color: #fff; }
     .category-list, .product-list { padding:20px; gap:15px; }
     .contact-info { flex-direction:column; padding:20px; }
 }
+
+.nav-btn {
+    padding: 12px 25px; font-size: 1rem;
+    background: #D4AF37; color: #07342C; border: none; border-radius: 8px;
+    cursor: pointer; transition: 0.3s;
+}
+.nav-btn:hover { background: #fff; color:#07342C; }
