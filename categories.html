@@ -9,13 +9,24 @@
 <body>
 
 <header>
-    <img src="images/logo (5).png" alt="Logo" class="logo">
+    <div class="logo-container">
+        <img src="images/logo (5).png" class="logo" alt="Logo">
+        <span class="logo-text">Floral Decors</span>
+    </div>
     <nav>
         <a href="index.html">Home</a>
         <a href="categories.html">Categories</a>
         <a href="flowers.html">Flowers</a>
-        <a href="about.html">About Us</a>
+        <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
+        <div class="user-dropdown">
+            <button>User</button>
+            <div class="dropdown-content">
+                <a href="loginform.html">Login</a>
+                <a href="signupform.html">Sign Up</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
     </nav>
 </header>
 
@@ -28,19 +39,43 @@
     </div>
     <div data-category="anniversary">
         <img src="images/flower2.jpg" alt="Anniversary">
-        <h4>Wedding</h4>
+        <h4>Anniversary</h4>
     </div>
     <div data-category="wedding">
         <img src="images/flower3.jpg" alt="Wedding">
-        <h4>Mehndi</h4>
+        <h4>Wedding</h4>
     </div>
     <div data-category="getwell">
         <img src="images/flower4.jpg" alt="Get Well Soon">
-        <h4>Day Light</h4>
+        <h4>Get Well Soon</h4>
     </div>
 </section>
 
 <section id="products" class="product-list"></section>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <h4>About</h4>
+            <p>Floral Decors delivers premium flowers across Pakistan.</p>
+        </div>
+        <div>
+            <h4>Links</h4>
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="flowers.html">Flowers</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>Email: info@floraldecors.com</p>
+            <p>Phone: +92 300 1234567</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2025 Floral Decors. All rights reserved.
+    </div>
+</footer>
 
 <script src="js/script.js"></script>
 </body>
