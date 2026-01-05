@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Categories - Floral Decors</title>
+<title>Home - Floral Decors</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,29 +30,52 @@
     </nav>
 </header>
 
-<h2 style="text-align:center; margin-top:30px; color:#07342C;">Shop by Occasion</h2>
+<!-- Slider -->
+<div class="slider">
+    <div class="slide active">
+        <img src="./images/Slide (1).jpg" alt="Flower 1">
+        <div class="slide-text">
+            <h2>Fresh Flowers Delivered Daily</h2>
+            <p>Make every moment special with our exquisite bouquets.</p>
+            <button onclick="location.href='categories.html'">Shop Now</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="./images/Slide (5).jpg" alt="Flower 2">
+        <div class="slide-text">
+            <h2>Beautiful Arrangements</h2>
+            <p>Perfect flowers for birthdays, weddings, and anniversaries.</p>
+            <button onclick="location.href='categories.html'">View Collection</button>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="./images/Slide (6).jpg" alt="Flower 3">
+        <div class="slide-text">
+            <h2>Send Love & Happiness</h2>
+            <p>Express your feelings with our premium floral designs.</p>
+            <button onclick="location.href='categories.html'">Explore Now</button>
+        </div>
+    </div>
+</div>
 
-<section class="category-list">
-    <div data-category="birthday">
-        <img src="images/Birthday.jfif" alt="Birthday">
-        <h4>Birthday</h4>
+<!-- Highlights -->
+<section class="highlights">
+    <div>
+        <h3>Fresh Flowers</h3>
+        <p>Delivered fresh every day, straight from the farm.</p>
     </div>
-    <div data-category="anniversary">
-        <img src="images/Mehendi.jfif" alt="Anniversary">
-        <h4>Mehndi</h4>
+    <div>
+        <h3>Gift Wrapping</h3>
+        <p>Beautifully wrapped gifts to make your surprise perfect.</p>
     </div>
-    <div data-category="wedding">
-        <img src="images/Wedding.jfif" alt="Wedding">
-        <h4>Wedding</h4>
-    </div>
-    <div data-category="getwell">
-        <img src="images/Day Light.jfif" alt="Get Well Soon">
-        <h4>Day Light</h4>
+    <div>
+        <h3>Fast Delivery</h3>
+        <p>Quick and safe delivery across all major cities.</p>
     </div>
 </section>
 
-<section id="products" class="product-list"></section>
 
+<!-- Footer -->
 <footer>
     <div class="footer-container">
         <div>
