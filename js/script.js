@@ -16,46 +16,36 @@ setInterval(nextSlide, 4000); // slider auto change
 
 // === Categories & Flowers Data ===
 const products = {
-    birthday:[
-        {name:"Red Roses", img:"images/flower1.jpg", price:"$20"},
-        {name:"Tulip Bouquet", img:"images/flower2.jpg", price:"$18"},
-        {name:"Lilies Set", img:"images/flower3.jpg", price:"$25"},
-        {name:"Sunflowers", img:"images/flower4.jpg", price:"$22"}
+    Birthday:[
+        {name:"Balloon Decor", img:"images/Display  Pics/Balloon Flowers Mix Decor.jfif", price:"$20"},
+        {name:"Cartoon Theme Decor", img:"images/Display  Pics/Cartoon Theme Decor.jfif", price:"$18"},
+        {name:"Forest Theme Decor", img:"images/Display  Pics/Forest Theme Decor.jfif", price:"$25"},
     ],
-    anniversary:[
-        {name:"Orchid Arrangement", img:"images/flower5.jpg", price:"$30"},
-        {name:"Romantic Roses", img:"images/flower6.jpg", price:"$28"},
-        {name:"Mixed Flowers", img:"images/flower7.jpg", price:"$35"}
+    Mehndi:[
+        {name:"Mehndi Stage Decor", img:"images/Display  Pics/Mehndi Stage Decor.jfif", price:"$30"},
+        {name:"Mehndi Doli Decor", img:"images/Display  Pics/Mehndi Doli Decor.jfif", price:"$28"},
+        {name:"Mehndi Venue Decor", img:"images/Display  Pics/Mehndi Venue Decor.jfif", price:"$35"}
     ],
-    wedding:[
-        {name:"Wedding Bouquet 1", img:"images/flower8.jpg", price:"$40"},
-        {name:"Wedding Bouquet 2", img:"images/flower9.jpg", price:"$45"},
-        {name:"Wedding Arrangement", img:"images/flower10.jpg", price:"$50"}
+    Events:[
+        {name:"Wedding Decor", img:"images/Display  Pics/Wedding Decor.jfif", price:"$40"},
+        {name:"Nikkah Decor", img:"images/Display  Pics/Nikkah Decor.jfif", price:"$45"},
+        {name:"Valima Decor ", img:"images/Display  Pics/Valima Decor.jfif", price:"$50"}
     ],
-    getwell:[
-        {name:"Get Well Roses", img:"images/flower11.jpg", price:"$20"},
-        {name:"Healing Lilies", img:"images/flower12.jpg", price:"$22"},
-        {name:"Cheerful Sunflowers", img:"images/flower13.jpg", price:"$25"}
-    ],
-    rose:[
-        {name:"Red Roses", img:"images/flower1.jpg", price:"$20"},
-        {name:"Pink Roses", img:"images/flower2.jpg", price:"$22"},
-        {name:"White Roses", img:"images/flower3.jpg", price:"$25"}
+
+    Rose:[
+        {name:"Red Roses Bouquet", img:"images/Bouqet/Red Rose Bouquet.jfif", price:"$20"},
+        {name:"White Roses Bouquet", img:"images/Bouqet/White Rose Bouquet.jfif", price:"$22"},
+        {name:"Mix Roses Bouquet", img:"images/Bouqet/Mix Roses Bouquet.jfif", price:"$25"}
     ],
     lily:[
-        {name:"White Lilies", img:"images/flower4.jpg", price:"$18"},
-        {name:"Pink Lilies", img:"images/flower5.jpg", price:"$20"},
-        {name:"Yellow Lilies", img:"images/flower6.jpg", price:"$22"}
+        {name:"White Lilies Bouquet", img:"images/Bouqet/White Lily Bouquet.jfif", price:"$18"},
+        {name:"Pink Lilies Bouquet", img:"images/Bouqet/Pink  Lily Bouquet.jfif", price:"$20"},
+        {name:"Mix Lilies Bouquet", img:"images/Bouqet/Mix Lily Bouquet.jfif", price:"$22"}
     ],
-    orchid:[
-        {name:"Purple Orchid", img:"images/flower7.jpg", price:"$30"},
-        {name:"White Orchid", img:"images/flower8.jpg", price:"$32"},
-        {name:"Pink Orchid", img:"images/flower9.jpg", price:"$28"}
-    ],
-    sunflower:[
-        {name:"Sunflower Bouquet", img:"images/Sunflower Bouquet.jfif ", price:"$25"},
-        {name:"Sunflower Mixed", img:"images/Sunflower Mixed.jfif", price:"$27"},
-        {name:"Sunflower Arrangement", img:"images/Sunflower Arrangement.jfif", price:"$30"}
+    Sunflower:[
+        {name:"Sunflower Bouquet", img:"images/Bouqet/Sunflower Bouquet.jfif ", price:"$25"},
+        {name:"Sunflower Rose Mix Bouquet", img:"images/Bouqet/Sunflower & White Rose Bouquet.jfif", price:"$27"},
+        {name:"Sunflower Arrangment", img:"images/Bouqet/Sunflower Arrangement.jfif", price:"$30"}
     ]
 };
 
